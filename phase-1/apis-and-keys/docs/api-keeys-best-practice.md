@@ -34,14 +34,14 @@ Every API call has:
 Never put API keys in code. Use environment variables.
 
 ```bash
-export ANTHROPIC_API_KEY="sk-ant-..."
+export GROQ_API_KEY="sk-ant-..."
 export OPENAI_API_KEY="sk-..."
 ```
 
 Or use a `.env` file (add it to `.gitignore`):
 
 ```
-ANTHROPIC_API_KEY=sk-ant-...
+GROQ_API_KEY=sk-ant-...
 OPENAI_API_KEY=sk-...
 ```
 
