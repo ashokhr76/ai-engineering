@@ -78,7 +78,8 @@ git push origin my-progress
 
 For this course, you need exactly these commands:
 
-#Git Commands to Push from MAC Terminal - Once you create the github repository
+## Git Commands to Push from MAC Terminal - Once you create the github repository
+
 git init
 git commit -m "first commit"
 git branch -M main
