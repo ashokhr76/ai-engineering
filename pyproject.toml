@@ -5,9 +5,11 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "groq>=1.5.0",
     "jupyter>=1.1.1",
     "matplotlib>=3.11.0",
     "numpy>=2.5.0",
     "panda>=0.3.1",
+    "python-dotenv>=1.2.2",
     "torch>=2.12.1",
 ]
