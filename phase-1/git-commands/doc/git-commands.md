@@ -2,10 +2,6 @@
 
 > Version control is not optional. Every experiment, every model, every lesson you build here gets tracked.
 
-**Type:** Learn
-**Languages:** --
-**Prerequisites:** Phase 0, Lesson 01
-**Time:** ~30 minutes
 
 ## Learning Objectives
 
@@ -15,8 +11,6 @@
 - Navigate the commit history with `git log` to understand project evolution
 
 ## The Problem
-
-You're about to write hundreds of code files across 20 phases. Without version control you will lose work, break things you can't undo, and have no way to collaborate with others.
 
 Git is the tool. GitHub is where the code lives. This lesson covers what you need for this course and nothing more.
 
@@ -83,6 +77,15 @@ git push origin my-progress
 ## Use It
 
 For this course, you need exactly these commands:
+
+#Git Commands to Push from MAC Terminal - Once you create the github repository
+git init
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ashokhr76/ai-engineering.git
+git push -u origin main
+
+OR
 
 | Command | When |
 |---------|------|
