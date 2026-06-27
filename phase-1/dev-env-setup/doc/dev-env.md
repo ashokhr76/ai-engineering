@@ -1,4 +1,4 @@
-Here’s a crisp, practical **short notes** version of *How to use your Mac GPU with PyTorch*, perfect for quick reference.
+
 
 ---
 
@@ -102,5 +102,3 @@ Use:
 - Cloud GPUs (Colab, RunPod, AWS, Lambda Labs)
 
 ---
-
-If you want, I can turn this into a **one‑page cheat sheet**, **PDF‑ready notes**, or **step‑by‑step guide**.
