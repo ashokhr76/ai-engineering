@@ -35,3 +35,17 @@ plt.xlabel('Age')
 plt.ylabel('Income($)')
 plt.legend()    
 plt.show()
+
+## How to identify the optimal number of clusters using the elbow method
+sse = []
+k_rng = range(1, 10)
+for k in k_rng:
+    km = KMeans(n_clusters=k)
+    km.fit(df[['Age', 'Income($)']])
+    sse.append(km.inertia_) 
+
+plt.plot(k_rng, sse)
+plt.xlabel('Number of Clusters')
+plt.ylabel('Sum of Squared Distances')
+plt.title('Elbow Method')
+plt.show()
