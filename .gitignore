@@ -11,3 +11,12 @@ wheels/
 # ENV API KEYS
 .env
 
+
+*.bin
+*.safetensors
+*.pt
+*.onnx
+data/*.parquet
+data/*.csv
+models/
+
